@@ -1,0 +1,777 @@
+body {
+    margin: 0px;
+}
+
+.landing-page {
+    position: relative;
+    background-color: #0C0C0C;
+    color: white;
+    margin: auto;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container2,
+.container4,
+.container6,
+.container8,
+.container10,
+.container12 {
+    background-color: black;
+}
+
+.container1 {
+    background-image: url(/images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.container1 .heading {
+    max-width: 1140px;
+    height: 63px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.container1 .left-heading {
+    display: flex;
+    align-items: center;
+}
+
+.container1 .logo {
+    width: 43.53px;
+    height: 63px;
+    margin-right: 12px;
+}
+
+.container1 .signin-btn {
+    width: 112px;
+    height: 40px;
+}
+
+.container1 .button-text {
+    font-family: 'Circular STD';
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 140%;
+    letter-spacing: 0.24px;
+}
+
+.container1 .bg-purple {
+    background: #B60158;
+    border-radius: 4px;
+    color: white;
+}
+
+.container1 .logo-text {
+    font-family: Anton;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.431775px;
+    text-transform: uppercase;
+}
+
+.container1 .intro {
+    max-width: 709px;
+    height: 264px;
+    text-align: center;
+    margin: auto;
+    margin-top: 108px;
+}
+
+.container1 .title {
+    font-family: 'SF Pro Display';
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    display: block;
+}
+
+.container1 .description {
+    max-width: 601px;
+    font-family: 'SF Pro Display';
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 140%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}
+
+.small-text {
+    font-family: 'SF Pro Text';
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 0px;
+    text-align: justify;
+    display: block;
+}
+
+.container1 .buttons {
+    margin: 68px auto 557px auto;
+    max-width: 317px;
+    height: 52px;
+    display: flex;
+}
+
+.container1 .signup-btn {
+    width: 137px;
+    margin-right: 24px;
+    color: white;
+    border: none;
+}
+
+.container1 .video-btn {
+    width: 156px;
+    height: 42px;
+    border: 1px solid #B60158;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    color: #B60158;
+    background: transparent;
+}
+
+.container1 .video-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px 0px 24px;
+}
+
+.container2 {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.container2 .box1 {
+    margin: 60px 30px 60px 150px;
+}
+
+h3 {
+    font-family: 'SF Pro Display';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.24px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.container2 .box2 {
+    margin-left: 150px;
+    margin-bottom: 210px;
+    font-family: 'SF Pro Text';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 .content2 {
+    margin-bottom: 36px;
+}
+
+.container2 img {
+    margin: 60px 150px 60px 0px;
+    max-height: 463px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+}
+
+.container3 .textbox {
+    margin: 60px 0px 67px 150px;
+    max-width: 555px;
+}
+
+.container3 .box2 {
+    margin: 60px 96px 0px 0px;
+    font-family: 'SF Pro Text';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.24px;
+}
+
+.container3 .box2 div {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 36px;
+}
+
+.container3 .box2 span {
+    margin-left: 12px;
+}
+
+.container3 .frame {
+    margin: 60px 28px 64px 0px;
+    max-height: 900px;
+}
+.container4 {
+    display: flex;
+}
+
+.container4 img {
+    margin: 60px 64px 60px 56px;
+    max-height: 625px;
+}
+
+.container4 .textbox {
+    margin: 60px 150px 60px 0px;
+}
+
+.container4 .quote {
+font-family: 'SF Pro Display';
+font-weight: bold;
+font-size: 36px;
+line-height: 140%;
+letter-spacing: 0.24px;
+margin: 0px;
+}
+
+.container4 .content {
+    display: flex;
+    margin-top: 40px;
+}
+
+.container4 .paragraph {
+    display: flex;
+    flex: 1;
+    margin-left: 24px;
+    height: fit-content;
+}
+
+.container4 .grey-paragraph {
+    background-color: #444444;
+    margin-left: 0px;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container5 h3{
+    margin-top: 85px;
+    text-align: center;
+}
+
+.container5 .content-box {
+    margin-top: 80px;
+    margin-bottom: 64px;
+    max-width: 1138px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container5 .first-line {
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.container5 .box {
+    margin-right: 30px;
+    flex: 1;
+}
+
+.container5 .title {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: justify;
+}
+
+.container5 .box .small-text {
+    line-height: 120%;
+    opacity: 0.8;
+}
+
+.container5 .second-line {
+    display: flex;
+    margin-right: 292px;
+}
+
+.container6 .textbox {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.container6 .small-text {
+    text-align: center;
+}
+
+.container6 .image-grid {
+    padding: 40px 250px 60px 250px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(5, 1fr);
+    gap: 40px 30px;
+}
+
+.container7 h3 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.container7 .category-grid {
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(6, 1fr);
+    gap: 30px;
+    padding: 60px 150px;
+}
+
+.container8 {
+    display: flex;
+    justify-content: center;
+}
+
+.container8 .content-box {
+    margin: 60px 30px 120px 150px;
+}
+
+.container8 .logo {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 141px;
+}
+
+.container8 .textbox {
+    margin-top: 60px;
+    margin-right: 100px;
+}
+
+.container8 .textbox .small-text {
+    opacity: 0.8;
+}
+
+.container9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container9 .title {
+    margin-top: 60px;
+}
+
+.container9 .intro {
+    display: flex;
+    margin: 60px 150px 75px 150px; 
+}
+
+.container9 .box1,
+.container9 .box2 {
+    flex: 1;
+    margin-right: 31px;
+}
+
+.container9 .box3 {
+    flex: 1;
+}
+
+.container9 .number {
+    font-family: 'SF Pro Text';
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+
+.container9 .white-line {
+    width: 76px;
+    height: 5px;
+    background-color: #FFFFFF;
+    border-radius: 500px;
+    margin: auto;
+}
+
+.container9 .text1 {
+    font-family: 'SF Pro Display';
+    font-size: 18px;
+}
+
+.container9 .text2 {
+    font-family: 'SF Pro Text';
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.container10 {
+    display: flex;
+    justify-content: center;
+}
+
+.container10 .textbox {
+    margin: 60px 30px 285px 150px;
+}
+
+.container10 .story {
+    margin-top: 60px;
+    margin-right: 95px;
+}
+
+.container10 .content {
+    opacity: 0.8;
+    line-height: 120%;
+}
+
+.container10 .author {
+    color: #B60158;
+    margin-top: 24px;
+    line-height: 120%;
+}
+
+.container10 img {
+    margin: 60px 150px 60px 0px;
+}
+
+.container11 {
+    display: flex;
+    justify-content: center;
+}
+
+.container11 .content-box {
+    margin: 40px 112px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container11 .notification {
+    margin: 0px 39px 40px 39px;
+    font-family: 'Be Vietnam';
+}
+
+.container11 .notification p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.container11 .text1 {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.container11 .text2 {
+    font-weight: 600;
+    font-size: 34px;
+}
+
+.container11 .text3 {
+    font-size: 16px;
+}
+
+.container11 .text4 {
+    font-size: 12px;
+}
+
+.container11 .countdown {
+    margin-top: 32px;
+}
+
+.container11 .yellow-btn {
+    background-color: #FBBD00;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.container11 .promotion {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.container11 .text5 {
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 110%;
+}
+
+.container11 .text6 {
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 110%;
+}
+
+.container11 .text7 {
+    font-family: 'Be Vietnam';
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.white-btn {
+    color: #B60158;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.94px;
+    text-transform: uppercase;
+}
+
+.container11 .promotion-btn {
+    padding: 14px 22px;
+}
+
+.container12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container12 .promotion {
+    margin-top: 80px;
+}
+
+.container12 .text1 {
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 34px;
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+
+.container12 .big-number {
+    font-family: 'Be Vietnam';
+    font-size: 42px;
+    font-weight: 700;
+    color: #B60158;
+}
+
+.container12 .text2 {
+    font-family: 'SF Pro Display';
+    font-size: 16px;
+    line-height: 160%;
+    opacity: 0.64;
+}
+
+.container12 .gift {
+    margin: 40px 150px 60px 150px ;
+}
+
+.container12 .left-book {
+    margin-right: 31px;
+}
+
+.container12 .book-value {
+    margin: 27px 86px 0px 86px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container12 .value {
+    background-color: #B60158;
+    padding: 12px 16px;
+    border-radius: 5px;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.94px;
+}
+
+.container12 .left-value {
+    margin-right: 202px;
+}
+
+.be34 {
+    font-family: 'Be Vietnam';
+    font-weight: 600;
+    font-size: 34px;
+    text-align: center;
+}
+
+.container12 .text3 {
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.container12 .countdown img {
+    margin-top: 36px;
+}
+
+.container12 .signup-box {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.container12 .signup-box .small-text {
+    text-align: center;
+    margin: 0px 162px;
+}
+
+.container12 .big-number {
+    color: #B60158;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.container12 .submit-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container12 .input {
+    margin-top: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 12px 0px 16px 16px;
+    color: white;
+    font-family: 'SF Pro Text';
+    font-size: 14px;
+    line-height: 160%;
+}
+
+.container12 .submit-btn {
+    margin-top: 40px;
+    background-color: #B60158;
+    border-radius: 5px;
+    padding: 16px 48px;
+    width: fit-content;
+    align-self: center;
+    color: white;
+    font-family: 'SF Pro Display';
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.94px;
+    text-transform: uppercase;
+}
+
+.container13 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container13 .title {
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+.container13 .question-box {
+    margin: 60px 150px 64px 150px;
+}
+
+.container13 .box {
+    display: flex;
+    margin: 16px 0px;
+}
+
+.container13 .question-icon {
+    height: fit-content;
+    padding: 4px;
+    margin-right: 12px;
+}
+
+.container13 .question {
+    font-family: 'SF Pro Display';
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0px;
+    align-self: center;
+}
+
+.container13 .answer {
+    font-family: 'SF Pro Text';
+    font-size: 14px;
+    line-height: 140%;
+    margin-top: 17px;
+    margin-bottom: 8px;
+}
+
+.container13 .vector {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.container14 {
+    background-color: #B60158;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container14 .notification{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.container14 .textbox {
+    margin-top: 0px;
+    margin-bottom: 36px;
+}
+
+.container14 .signup-btn {
+    padding: 16px;
+    margin: auto;
+}
+
+.arrow-icon {
+    margin-left: 12px;
+}
+
+.container14 .vector1 {
+    height: 1px;
+    width: 100%;
+    background: rgba(196, 196, 196, 0.24);
+}
+
+.container14 .footer {
+    margin: 0px 150px 24px 150px;
+}
+
+.container14 .footer-text {
+    font-family: 'Be Vietnam';
+    font-size: 14px;
+    margin-top: 24px;
+    display: flex;
+}
+
+.container14 .vector2 {
+    width: 1px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 0px 8px;
+}
+
+.container14 .trademark {
+    margin-right: 444px;
+    text-transform: uppercase;
+}
+
+.container14 .contact {
+    display: flex;
+}
+
+.container14 .content {
+    color: rgba(255, 255, 255, 0.34);
+}
